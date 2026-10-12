@@ -119,14 +119,14 @@ The concrete profiler implementation determines how measurements are collected a
 
 ## Related packages
 
-| Package | Purpose | Relationship |
-| --- | --- | --- |
-| [`wilycode/router`](https://github.com/wilycode/router) | HTTP routing | Independent |
-| [`wilycode/router-attribute`](https://github.com/wilycode/router-attribute) | Attribute-based route discovery | Independent |
-| `wilycode/profiler-php` | PHP implementation of profiling contracts | Optional; planned |
-| `wilycode/router-profiler` | Connects routing diagnostics to a profiler | Optional; planned |
+| Package | Purpose |
+| --- | --- |
+| [`wilycode/router`](https://github.com/wilycode/router) | HTTP routing |
+| [`wilycode/router-attribute`](https://github.com/wilycode/router-attribute) | Attribute-based route discovery |
+| [`wilycode/profiler-php`](https://github.com/wilycode/profiler-php) | PHP implementation of profiling contracts |
+| [`wilycode/router-profiler`](https://github.com/wilycode/router-profiler) | Routing performance diagnostics |
 
-Neither Router nor Router Attribute is required to use these contracts. The planned packages are listed for orientation and should not be assumed to be published yet.
+Install each package separately as needed.
 
 ## Development
 
